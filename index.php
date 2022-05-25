@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>K.A.B Store - ERP</title>
+    <script src="src/js/element.js"></script>
+    <link rel="stylesheet" href="src/css/style.css" type="text/css">
 </head>
 <body>
-    <script src="src/js/main.js"></script>
-    <?php
-        include "content/head.php";
-    ?>
+    <div class="container">
+        <?php include "./content/head.php"; ?>
+        <?php include "./dashboard/dashboard.php"; ?>
+        <?php include "./content/foot.php"; ?>
+    </div>
 </body>
 </html>

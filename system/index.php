@@ -7,7 +7,7 @@
             "sales" => "/account/sales.php",
             "transcation" => "/account/transcation.php",
         ],
-        "api" => [];
+        "api" => [],
         "company" => "index.php",
         "content" => [
             "foot" => "/content/foot.php",
@@ -45,7 +45,7 @@
             "main" => "/src/js/main.js",
             "websocket" => "/src/js/websocket.js",
             "sw-app" => "/src/js/sw-app.js"
-        ]
+        ],
         "system" => [
             "main" => "/system/index.php"
         ],
