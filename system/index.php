@@ -39,12 +39,14 @@
             "main" => "/settings/index.php"
         ],
         "css" => [
-                "style" => "/src/css/style.css"
+            "style" => "/src/css/style.css"
         ],
         "js" => [
+            "component" => "/src/js/component.js",
             "main" => "/src/js/main.js",
-            "websocket" => "/src/js/websocket.js",
-            "sw-app" => "/src/js/sw-app.js"
+            "sw-app" => "/src/js/sw-app.js",
+            "sw" => "/src/js/sw.js",
+            "websocket" => "/src/js/websocket.js"
         ],
         "system" => [
             "main" => "/system/index.php"
