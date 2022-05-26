@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K.A.B Store - ERP</title>
-    <script src="src/js/element.js"></script>
+    <script src="src/js/component.js"></script>
     <link rel="stylesheet" href="src/css/style.css" type="text/css">
 </head>
 <body>
