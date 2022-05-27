@@ -7,7 +7,9 @@
     
     <div class="insights">
         <div class="sales">
-             <i class="stats-dots-icon" id="stats-dots-icon"></i>
+             <i id="stats-dots-icon">
+                 <span class="stats-dots-icon kab-icon white-icon"></span>
+             </i>
              <div class="middle">
                  <div class="left">
                      <h3>Total Sales</h3>
@@ -26,7 +28,9 @@
         </div>
     <!-- expenses -->
         <div class="expenses">
-            <i class="cogs-icon" id="cogs-icon"></i>
+            <i id="cogs-icon">
+                <span class="cogs-icon kab-icon white-icon"></span>
+            </i>
             <div class="middle">
                 <div class="left">
                     <h3>Total Expenses</h3>
@@ -46,7 +50,9 @@
     
     <!-- income  -->
         <div class="income">
-            <i class="analytics-icon" id="analytics-icon"></i>
+            <i  id="analytics-icon">
+                <span class="analytics-icon kab-icon white-icon"></span>
+            </i>
             <div class="middle">
                 <div class="left">
                     <h3>Total income</h3>

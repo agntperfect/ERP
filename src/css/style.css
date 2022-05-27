@@ -22,6 +22,9 @@
     --color-light-blue: #338BEB;
     --color-yellow: #f3d250;
     --color-dark-black: #19181A;
+    --color-reddish: #F4A896;
+    --color-blueish: #358597;
+    --color-pinkish-red: #ef476f;
 }
 
 *{
@@ -258,8 +261,6 @@ main .insights  i {
     border-radius: 50%;
     color: var(--color-white);
     font-size: 2rem;
-    width: 50px;
-    height: 50px;
     margin: 5px;
     text-align: center;
 }
@@ -474,7 +475,11 @@ main .recent-orders a {
 .right .sales-analytics .item:last-child:hover {
     outline: none;
     background-color: var(--color-light-blue);
-    color: var(--color-dark-black);
+    color: var(--color-white);
+}
+
+.right .sales-analytics .item:last-child:hover i {
+    filter: invert(100%);
 }
 
 .right .sales-analytics .item .right {
@@ -483,4 +488,44 @@ main .recent-orders a {
     align-items: flex-start;
     margin: 0;
     width: 100%;
+}
+
+.sales-analytics h5 {
+    font-size: 0.9rem;
+}
+
+.sales-analytics h3 {
+    font-size: 0.9rem;
+}
+
+.right .sales-analytics .item .icon {
+    padding: 0.6rem;
+    color: var(--color-white);
+    border-radius: 50%;
+    background: var(--color-pinkish-red);
+    display: flex;
+}
+
+.right .sales-analytics .item.offline .icon {
+    background: var(--color-yellow);
+}
+
+.right .sales-analytics .item.customer .icon  {
+    background-color: var(--color-light-blue);
+}
+
+.white-icon {
+    filter: invert(100%);
+}
+
+.kab-icon {
+    display: flex;
+    justify-content: center;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+i {
+    position: relative;
 }

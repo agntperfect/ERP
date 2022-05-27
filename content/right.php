@@ -55,7 +55,7 @@
         <h2>Sales Analytics</h2>
         <div class="item online">
             <div class="icon">
-                <i class="cart-icon"></i>
+                <i class="cart-icon white-icon"></i>
             </div>
             <div class="right">
                 <div class="info">
@@ -66,9 +66,9 @@
                 <h3>2839</h3>
             </div>
         </div>
-        <div class="item online">
+        <div class="item offline">
             <div class="icon">
-                <i class="local_shipping-icon"></i>
+                <i class="shopping-basket-icon white-icon"></i>
             </div>
             <div class="right">
                 <div class="info">
@@ -79,9 +79,9 @@
                 <h3>1100</h3>
             </div>
         </div>
-        <div class="item online">
+        <div class="item customer">
             <div class="icon">
-                <i class="cart-icon"></i>
+                <i class="user-icon white-icon"></i>
             </div>
             <div class="right">
                 <div class="info">
