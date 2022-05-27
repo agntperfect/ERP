@@ -164,7 +164,6 @@ b{
 }
 
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -222,6 +221,12 @@ main .date input[type='date'] {
     color: var(--color-dark);
 }
 
+main .insights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
 main .insights > div {
     background: var(--color-white);
     padding: var(--card-padding);
@@ -231,3 +236,31 @@ main .insights > div {
     transition: ease all 300ms;
 }
 
+main .insights > div:hover {
+    box-shadow: none;
+}
+
+main .insights  i {
+    background-color: var(--color-primary);
+    background-position: center;
+    background-size: calc(50px - 1.5rem);
+    padding: 1rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+main .insights > div.expenses i {
+    color: var(--color-danger);
+}
+main .insights > div.expenses i {
+    color: var(--color-danger);
+}
+main .insights > div.expenses i {
+    color: var(--color-danger);
+}

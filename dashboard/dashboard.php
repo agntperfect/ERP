@@ -4,6 +4,7 @@
         <input type="date" name="" id="">
     </div>
     <!-- insights -->
+    
     <div class="insights">
         <div class="sales">
              <i class="stats-dots-icon" id="stats-dots-icon"></i>
@@ -23,9 +24,7 @@
              </div>
              <small class="text-muted">Last 24 hours</small>
         </div>
-    </div>
     <!-- expenses -->
-    <div class="insights">
         <div class="sales">
             <i class="cogs-icon" id="cogs-icon"></i>
             <div class="middle">
@@ -44,9 +43,8 @@
             </div>
             <small class="text-muted">Last 24 hours</small>
         </div>
-    </div>
+    
     <!-- income  -->
-    <div class="insights">
         <div class="sales">
             <i class="analytics-icon" id="analytics-icon"></i>
             <div class="middle">
