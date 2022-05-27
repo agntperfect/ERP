@@ -113,8 +113,8 @@
                     <td class="warning">Pending</td>
                     <td class="primary">Details</td>
                 </tr>
-                
             </tbody>
         </table>
+        <a href="">Show all</a>
     </div>
 </main>

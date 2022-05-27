@@ -7,14 +7,15 @@
     <title>K.A.B Store - ERP</title>
     <script src="src/js/component.js"></script>
     <link rel="stylesheet" href="src/css/style.css" type="text/css">
-    <link rel="stylesheet" href="src/css/icon.css.php" type="text/css">
     <link rel="stylesheet" href="src/css/web-icon.css.php" type="text/css">
+    <link rel="stylesheet" href="src/css/icon.css.php" type="text/css">
 </head>
 <body>
     <div class="container">
         <?php include "./content/head.php"; ?>
         <?php include "./dashboard/dashboard.php"; ?>
-        <?php include "./content/foot.php"; ?>
+        <?php include "./content/right.php"?>
     </div>
+    <script src="./src/js/main.js"></script>
 </body>
 </html>

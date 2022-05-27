@@ -11,10 +11,11 @@
         $res = (array) $value;
         echo ".".$res['name'].'-icon'." {\n";
         // echo "\t content: ''\n";
-        echo "\tbackground: url('".$res['url']."');\n";
+        echo "\tbackground: url('".$res['url']."') ;\n";
         echo "\tbackground-size: 20px 20px;\n";
         // echo "\tbackground-color: blue;\n";
         echo "\tbackground-repeat: no-repeat;\n";
+        echo "\tbackground-position: center;\n";
         echo "\tdisplay: block;\n";
         echo "\twidth: 20px;\n";
         echo "\twidth: 20px;\n";

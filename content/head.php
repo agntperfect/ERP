@@ -20,9 +20,8 @@
                 <button class="messages-btn"><i id="mail-icon" class="mail-icon"></i>Messages</button>
                 <button class="products-btn"><i id="product-icon" class="product-icon"></i>Products</button>
                 <button class="reports-btn"><i id="report-icon" class="report-icon"></i>Reports</button>
-                <button class="settings-btn"><i id="settings-icon" class="settings-icon"></i> Settings</button>
                 <button class="add_product-btn"><i id="add-icon" class="add-icon"></i> Add Product</button>
-                <button class="logout-btn"><i id="logout-icon" class="logout-icon"></i> Logout</button>
+                <button class="settings-btn"><i id="settings-icon" class="settings-icon"></i> Settings</button>
             </div>
         </div>
     </aside>

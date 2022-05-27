@@ -16,8 +16,7 @@ function createLogo(element, _src) {
     
     
     style.innerHTML =  `${element} {
-        display: block;
-        background: url(${ _src}) no-repeat;
+        background: url(${ _src}) no-repeat 100%;
         width: ${_width};
         height: ${_height};
     }`

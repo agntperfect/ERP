@@ -46,14 +46,14 @@ body {
     font-size: 0.88rem;
     background: var(--color-background);
     user-select: none;
-    overflow-x: hidden;
+    overflow: hidden;
     color: var(--color-dark);
 }
 
 .container {
     display: grid;
-    width: 96%;
-    margin: 0 auto;
+    width: 99%;
+    margin: 0 100% 0 0;
     /* background: var(--color-dark-black); */
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
@@ -75,6 +75,8 @@ aside .top {
 aside .logo {
     display: flex;
     gap: 0.8rem;
+    align-items: center;
+    margin: 0 0 0 1rem;
 }
 
 aside .logo kab-logo{
@@ -133,6 +135,12 @@ small {
     height: 2.8rem;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
 }
 
 .text-muted {
@@ -348,4 +356,133 @@ main table tbody td{
 
 main .recent-orders table tr:last-child td{
     border: none;
+}
+
+main .recent-orders a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
+
+.right {
+    margin-top: 1.4rem;
+}
+
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right  .top button {
+    display: none;
+}
+
+.right .theme-toggler {
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggler i {
+    background-size: 55%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .theme-toggler .active {
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile {
+    display: flex;
+    gap: 1rem;
+    text-align: right;
+    align-items: center;
+}
+
+.right .recent-updates {
+    margin-top: 1rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.right .sales-analytics {
+    margin-top: 2rem;
+}
+
+.right .sales-analytics h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .sales-analytics .item {
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem var( --card-padding);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: 300ms all ease;
+    justify-content: space-around;
+}
+
+.right .sales-analytics .item:last-child {
+    text-align: center;
+    outline: 3px dashed var(--color-dark);
+}
+
+.right .sales-analytics .item:last-child:hover i {
+    filter: brightness(100%);
+}
+
+.right .sales-analytics .item:hover {
+    box-shadow: none;   
+}
+
+.right .sales-analytics .item:last-child:hover {
+    outline: none;
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+}
+
+.right .sales-analytics .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
 }
