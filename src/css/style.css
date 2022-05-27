@@ -526,6 +526,9 @@ main .recent-orders a {
     height: 30px;
 }
 
-i {
-    position: relative;
+@media screen and (max-width:1200px) {
+    .container {
+        width: 94%;
+        
+    }
 }
