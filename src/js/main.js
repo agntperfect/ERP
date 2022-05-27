@@ -2,3 +2,30 @@ var logo_base64 = `data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1
 
 
 createLogo('kab-logo', logo_base64);
+var aside = document.querySelector("aside");
+var menu_btn = document.querySelector(".menu-btn");
+var close_btn = document.querySelector(".close");
+var themeToggler = document.querySelector(".theme-toggler");
+menu_btn.addEventListener("click", ()=> {
+    aside.style.display = 'block'
+})
+close_btn.addEventListener("click", ()=> {
+    aside.style.display = 'none'
+})
+
+themeToggler.addEventListener('click', ()=> {
+    document.body.classList.toggle('dark-theme-variables');
+    // document.querySelector('.add-product i').classList.toggle('white-icon')
+    x =themeToggler.querySelectorAll('i');
+    y = document.querySelectorAll('.sidebar i, kab-logo, .add-icon');
+    for (let i = 0; i < y.length; i++) {
+        const element = y[i];
+        // document.querySelector('kab-logo').style.filter = "invert(100%)";
+        element.classList.toggle('white-icon');
+    }
+    for (let i = 0; i < x.length; i++) {
+        const element = x[i];
+        x[i].classList.toggle('active');
+    }
+    
+})
