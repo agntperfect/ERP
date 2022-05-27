@@ -465,9 +465,7 @@ main .recent-orders a {
     outline: 3px dashed var(--color-dark);
 }
 
-.right .sales-analytics .item:last-child:hover i {
-    filter: brightness(100%);
-}
+
 
 .right .sales-analytics .item:hover {
     box-shadow: none;   
@@ -476,7 +474,7 @@ main .recent-orders a {
 .right .sales-analytics .item:last-child:hover {
     outline: none;
     background-color: var(--color-light-blue);
-    color: var(--color-white);
+    color: var(--color-dark-black);
 }
 
 .right .sales-analytics .item .right {
