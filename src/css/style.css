@@ -96,7 +96,7 @@ button {
 }
 
 i {
-    display: inline-block !important;
+    display: inline-block;
 }
 
 a {
@@ -189,7 +189,6 @@ aside h3 {
 
 aside .sidebar button {
     display: flex;
-    background-color: var(--color-light);
     color: var(--color-info-dark);
     gap: 1rem;
     padding-left: 6px;
@@ -548,7 +547,7 @@ main .recent-orders a {
     aside .sidebar button {
         width: 100%;
         display: flex;
-        justify-content:  flex-start;
+        justify-content:  center;
         margin: 0;
     }
     aside .sidebar button:last-child {

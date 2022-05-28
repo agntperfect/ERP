@@ -6,6 +6,15 @@ var aside = document.querySelector("aside");
 var menu_btn = document.querySelector(".menu-btn");
 var close_btn = document.querySelector(".close");
 var themeToggler = document.querySelector(".theme-toggler");
+var sidebar_btn = document.querySelectorAll('.sidebar button');
+
+for (let i = 0; i < sidebar_btn.length; i++) {
+    const element = sidebar_btn[i];
+    element.onclick = () => {
+        element.classList.toggle('active-btn');
+    }   
+}
+
 menu_btn.addEventListener("click", ()=> {
     aside.style.display = 'block'
 })
