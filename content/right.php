@@ -4,7 +4,7 @@
 
 <div class="right">
     <div class="top">
-        <button class="menu-btn"><i class="menu-icon"></i></button>
+        <button class="menu-btn"><i class="menu-icon kab-icon dark"></i></button>
         <div class="theme-toggler">
             <i class="light-mode-icon active"></i>
             <i class="dark-mode-icon"></i>

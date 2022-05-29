@@ -1,3 +1,9 @@
+<?php
+    // include "./webalizer/index.php";
+    // if (!isset($_SESSION["pass"])) {
+    //     header('location: ./auth/login');
+    // }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

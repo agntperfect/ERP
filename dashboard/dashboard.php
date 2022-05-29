@@ -72,7 +72,10 @@
     </div>
     <div class="recent-orders">
         <h2>Recent Orders</h2>
-        <table>
+        <div class="empty-table">
+            
+        </div>
+        <!-- <table>
             <thead>
                 <tr>
                     <th>Product Name</th>
@@ -121,6 +124,6 @@
                 </tr>
             </tbody>
         </table>
-        <a href="">Show all</a>
+        <a href="">Show all</a> -->
     </div>
 </main>

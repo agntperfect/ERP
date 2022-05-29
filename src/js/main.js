@@ -26,7 +26,7 @@ themeToggler.addEventListener('click', ()=> {
     document.body.classList.toggle('dark-theme-variables');
     // document.querySelector('.add-product i').classList.toggle('white-icon')
     x =themeToggler.querySelectorAll('i');
-    y = document.querySelectorAll('.sidebar i, kab-logo, .add-icon');
+    y = document.querySelectorAll('.sidebar i, kab-logo, .add-icon, .dark');
     for (let i = 0; i < y.length; i++) {
         const element = y[i];
         // document.querySelector('kab-logo').style.filter = "invert(100%)";
@@ -37,4 +37,11 @@ themeToggler.addEventListener('click', ()=> {
         x[i].classList.toggle('active');
     }
     
+})
+
+var add_product = document.querySelector('.add-product');
+add_product.addEventListener("hover",()=>{
+    if (document.body.classList.contains('dark-theme-variables')) {
+        this.querySelector('div.i').classList.toggle('white-icon');
+    }
 })
