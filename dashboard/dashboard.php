@@ -20,7 +20,7 @@
                         <circle cx="38" cy="38" r="36"></circle>
                     </svg>
                     <div class="number">
-                        <p>81%</p>
+                        <p>0%</p>
                     </div>
                  </div>
              </div>
@@ -41,7 +41,7 @@
                         <circle cx="38" cy="38"r="36"></circle>
                     </svg>
                     <div class="number">
-                        <p>81%</p>
+                        <p>0%</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         <circle cx="38" cy="38" r="36"></circle>
                     </svg>
                     <div class="number">
-                        <p>81%</p>
+                        <p>0%</p>
                     </div>
                 </div>
             </div>
