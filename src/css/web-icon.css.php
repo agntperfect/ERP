@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: text/css; charset=utf-8');
-    $url = "http://localhost/erp/content/icon.json";
+    $url = "http://localhost/erp/content/icon/icon.json";
     $opts = ['http' =>['method'  => 'POST']];
     $context  = stream_context_create($opts);
     $result = file_get_contents($url, false, $context);

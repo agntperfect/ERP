@@ -13,7 +13,7 @@
              <div class="middle">
                  <div class="left">
                      <h3>Total Sales</h3>
-                     <h1>$25,024</h1>
+                     <h1>$0.00</h1>
                  </div>
                  <div class="progress">
                     <svg>
@@ -34,7 +34,7 @@
             <div class="middle">
                 <div class="left">
                     <h3>Total Expenses</h3>
-                    <h1>$25,024</h1>
+                    <h1>$0.00</h1>
                 </div>
                 <div class="progress">
                     <svg>
@@ -56,7 +56,7 @@
             <div class="middle">
                 <div class="left">
                     <h3>Total income</h3>
-                    <h1>$25,024</h1>
+                    <h1>$0.00</h1>
                 </div>
                 <div class="progress">
                     <svg>
@@ -73,8 +73,12 @@
     <div class="recent-orders">
         <h2>Recent Orders</h2>
         <div class="empty-table">
-            
+            <women-logo></women-logo>
+            <h2 class="sub-title">
+                No Recent Orders
+            </h2>
         </div>
+        <div class="checking">
         <!-- <table>
             <thead>
                 <tr>
@@ -125,5 +129,6 @@
             </tbody>
         </table>
         <a href="">Show all</a> -->
+        </div>
     </div>
 </main>

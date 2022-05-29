@@ -1,5 +1,8 @@
 <?php
     header('Content-Type: text/css; charset=utf-8');
+    if (!isset($_REQUEST['type'])) {
+        $_REQUEST['type'] = '';
+    }
     switch ($_REQUEST['type']) {
         case 'logo':
             $url = "http://localhost/erp/content/icon/web-regular.icon.json";
