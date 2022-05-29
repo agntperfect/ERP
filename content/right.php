@@ -22,7 +22,10 @@
     <div class="recent-updates">
         <h2>Recent Updates</h2>
         <div class="empty-update">
-            
+            <women-update></women-update>
+            <h2 class="sub-title">
+                No Recent Orders
+            </h2>
         </div>
         <div class="updates">
             <div class="update">

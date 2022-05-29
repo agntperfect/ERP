@@ -40,6 +40,7 @@
 
 html{
     font-size: 14px;
+    overflow: hidden;
 }
 
 body {
@@ -50,6 +51,7 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow: hidden;
+    overflow-y: scroll;
     color: var(--color-dark);
 }
 
@@ -63,6 +65,8 @@ body {
 
 aside {
     height: 100vh;
+    position: fixed;
+    width: 14rem;
 }
 
 aside .top {
@@ -176,11 +180,11 @@ b{
 
 aside .sidebar {
     display: flex;
-    
     flex-direction: column;
     height: 86vh;
     position: relative;
     top: 3rem;
+    align-items: center;
 }
 
 aside h3 {
@@ -192,8 +196,7 @@ aside .sidebar button {
     display: flex;
     color: var(--color-info-dark);
     gap: 1rem;
-    padding-left: 6px;
-    /* margin-left: -2.5rem; */
+    padding-left: 1rem;
     align-items: center;
     width: 100%;
     position: relative;
@@ -346,7 +349,38 @@ main .recent-orders table {
     transition: all 300ms ease;
 }
 
-main .recent-orders .empty-table {
+.empty-update {
+    justify-content: flex-start;
+    background-color: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+    height: 300px;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-update women-update {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -15px;
+    width: 10.5rem;
+    height: 13.5rem;
+}
+
+.empty-update .sub-title {
+    position: absolute;
+    bottom: 10%;
+}
+
+.empty-table {
     justify-content: space-around;
     align-items: center;
     background-color: var(--color-white);
@@ -359,10 +393,10 @@ main .recent-orders .empty-table {
     height: 300px;
     position: relative;
     margin-bottom: 30px;
-    display: none;
+    /* display: none; */
 }
 
-main .recent-orders .empty-table women-logo {
+.empty-table women-logo {
     position: absolute;
     width: 21rem;
     height: 21rem;
@@ -560,7 +594,7 @@ main .recent-orders a {
     }
     .container {
         width: 96%;
-        grid-template-columns: 7rem auto calc(50% - 12.5rem);
+        grid-template-columns: 7rem auto 25%;
     }
 
     aside .logo h2{
@@ -574,15 +608,16 @@ main .recent-orders a {
         width: 100%;
     }
     aside .sidebar button {
-        width: 100%;
+        width: 70%;
         display: flex;
-        justify-content:  center;
+        justify-content: center;
         margin: 0;
+        padding: 0;
     }
     aside .sidebar button:last-child {
         position: relative;
         margin: 2rem 0 0 0    ;
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: center;
     }
@@ -613,6 +648,15 @@ main .recent-orders a {
         height: 100vh;
         animation: showMenu 400ms ease forwards;
         display: none; 
+    }
+
+    .empty-update women-update {
+        margin-top: 5%;
+    }
+
+    .empty-update .sub-title {
+        position: absolute;
+        bottom: 10%;
     }
 
     @keyframes showMenu {
