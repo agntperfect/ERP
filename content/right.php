@@ -21,6 +21,9 @@
     </div>
     <div class="recent-updates">
         <h2>Recent Updates</h2>
+        <div class="empty-update">
+            
+        </div>
         <div class="updates">
             <div class="update">
                 <div class="profile-photo">

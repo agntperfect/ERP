@@ -721,6 +721,3 @@ main .recent-orders a {
     filter: invert(0%);
 }
 
-.sidebar button {
-    background-color: var();
-}
