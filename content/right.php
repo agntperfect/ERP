@@ -27,7 +27,7 @@
                 No Recent Orders
             </h2>
         </div>
-        <div class="updates">
+        <!-- <div class="updates">
             <div class="update">
                 <div class="profile-photo">
                     <img src="<?=$profile_img?>">
@@ -49,13 +49,13 @@
             <div class="update">
                 <div class="profile-photo">
                     <img src="<?=$profile_img?>">
-                </div>
+                </div>  
                 <div class="message">
                     <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone.</p>
                     <small class="text-muted">2 min Ago</small>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="sales-analytics">
         <h2>Sales Analytics</h2>

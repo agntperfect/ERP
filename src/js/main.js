@@ -69,3 +69,7 @@ observer.observe(document.querySelector("body"), { subtree: true, childList: tru
 if (!document.querySelector('table')) {
     document.querySelector('.empty-table').style.display = "flex";
 }
+
+if (!document.querySelector(".updates")) {
+    document.querySelector(".empty-update").style.display = "flex";
+}

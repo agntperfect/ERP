@@ -69,6 +69,10 @@ aside {
     width: 14rem;
 }
 
+.updates:empty {
+    display: none;
+}
+
 aside .top {
     display: grid;
     margin-top: 1.4rem;
@@ -587,7 +591,17 @@ main .recent-orders a {
     height: 30px;
 }
 
+
 @media screen and (max-width:1200px) {
+    .sidebar button:first-child{
+        border-top-left-radius: var(--border-radius-2);
+        border-top-right-radius: var(--border-radius-2);
+    }
+    
+    .sidebar button:last-child {
+        border-bottom-left-radius: var(--border-radius-2);
+        border-bottom-right-radius: var(--border-radius-2);
+    }
     body {
         overflow: visible;
         overflow-x: hidden;
@@ -595,6 +609,10 @@ main .recent-orders a {
     .container {
         width: 96%;
         grid-template-columns: 7rem auto 25%;
+    }
+
+    aside {
+        position: relative;
     }
 
     aside .logo h2{
@@ -605,8 +623,9 @@ main .recent-orders a {
         display: none;
     }
     .sidebar {
-        width: 100%;
+        width: 50%;
     }
+
     aside .sidebar button {
         width: 70%;
         display: flex;
@@ -650,6 +669,20 @@ main .recent-orders a {
         display: none; 
     }
 
+    .sidebar button:first-child{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
+    .sidebar button:last-child {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
     .empty-update women-update {
         margin-top: 5%;
     }
@@ -675,13 +708,14 @@ main .recent-orders a {
     }
     aside .sidebar button {
         width: 100%;
+        position: unset;
+        padding: 15px;
         height: 3.4rem;
         justify-content: flex-start;
     }
     aside .sidebar button:last-child{
-        position: absolute;
+        width: 100%;
         justify-content: flex-start;
-        bottom: 5rem;
     }
     aside .close {
         display: inline-block;
@@ -765,3 +799,10 @@ main .recent-orders a {
     filter: invert(0%);
 }
 
+.empty-update {
+    display: none;
+}
+
+aside {
+    display: block;
+}
