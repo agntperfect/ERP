@@ -6,8 +6,8 @@
     <div class="top">
         <button class="menu-btn"><i class="menu-icon kab-icon dark"></i></button>
         <div class="theme-toggler">
-            <i class="light-mode-icon active"></i>
-            <i class="dark-mode-icon"></i>
+            <i class="light-mode-icon dark active"></i>
+            <i class="dark-mode-icon dark kab-icon" style="background-color: #ffffff"></i>
         </div>
         <div class="profile">
             <div class="info">
